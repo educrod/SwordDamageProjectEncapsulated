@@ -9,7 +9,7 @@ namespace SwordDamageProjectEncapsulated
 
         private static int RollDice()
         {
-            return random.Next(3, 18) + 1;
+            return random.Next(3, 18);
         }
 
         static void Main(string[] args)
